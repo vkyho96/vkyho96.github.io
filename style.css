@@ -1,0 +1,55 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+.container {
+    padding: 50px;
+}
+
+header {
+    font-size: 48px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    padding-bottom: 30px;
+
+
+  }
+  
+ul li {
+    float: right;
+}
+
+  li a {
+ 
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+span {
+    color: lightblue;
+   
+}
+
+header, footer {
+    text-align: center;
+    padding: 25px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+img {
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
