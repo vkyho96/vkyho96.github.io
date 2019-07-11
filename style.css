@@ -1,25 +1,55 @@
+html {
+    padding: 0;
+    margin: 0;
+ }
+
 body {
     background-color: gray;
     color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.photo-page {
+    background-color: #000;
+}
+.experience {
+    background-color: #56b3d9;
 }
 
 .container {
-    padding: 50px;
+    padding: 200px;
 }
 
 header {
     font-size: 48px;
 }
 
+nav {
+    border-bottom: 3px solid #158597;
+    background-color: #2de2e6;
+
+}
+
+
+ol {
+    list-style: lower-alpha;
+}
+
+
 ul {
+    list-style: square;
+}
+
+nav ul {
     list-style: none;
     display: block;
-    padding-bottom: 30px;
-
-
+    padding: 30px;
   }
+
+
   
-ul li {
+nav ul li {
     float: right;
 }
 
@@ -34,6 +64,8 @@ ul li {
 
 span {
     color: lightblue;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
    
 }
 
@@ -52,4 +84,19 @@ img {
     padding: 10px;
     width: 300px;
     height: auto;
+}
+
+p {
+    border-radius: 8px;
+    background-color: #f3eeeb;
+    border: 1px solid white;
+    padding: 10px;
+    color: gray;
+
+}
+
+a:hover {
+    color: #158597;
+    font-size: 19px;
+    
 }
